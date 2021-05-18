@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'image_banner.dart';
 import 'text_section.dart';
 
@@ -15,9 +16,9 @@ class LocationDetail extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             ImageBanner("assets/images/image.png"),
-            TextSection(Colors.red),
-            TextSection(Colors.blue),
-            TextSection(Colors.green),
+            TextSection("summary", "something 1something 1 something 1 something 1 something 1 something 1 something 1 something 1"),
+            TextSection("summary 2", "something 2something 1something 1 something 1 something 1 something 1 something 1 something 1"),
+            TextSection("summary 3", "something 3something 1something 1 something 1 something 1 something 1 something 1 something 1"),
           ],
         ));
   }
