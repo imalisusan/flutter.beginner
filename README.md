@@ -1,4 +1,4 @@
-# flutter_application_1
+# Free Code Camp Flutter Crash Course Code
 
 A new Flutter project.
 
