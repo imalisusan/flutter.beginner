@@ -9,16 +9,16 @@ class LocationDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Hello'),
+          title: Text('Location Detail'),
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             ImageBanner("assets/images/image.png"),
-            TextSection("summary", "something 1something 1 something 1 something 1 something 1 something 1 something 1 something 1"),
-            TextSection("summary 2", "something 2something 1something 1 something 1 something 1 something 1 something 1 something 1"),
-            TextSection("summary 3", "something 3something 1something 1 something 1 something 1 something 1 something 1 something 1"),
+            TextSection("summary", "something 1something g 1 something 1 something 1 something 1"),
+            TextSection("summary 2", "somethingething 1 something 1 something 1 something 1"),
+            TextSection("summary 3", "something 3somethi1 something 1 something 1"),
           ],
         ));
   }

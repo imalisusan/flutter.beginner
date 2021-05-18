@@ -13,6 +13,7 @@ class TextSection extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.stretch,
+    
       children: [
         Container(
           padding: const EdgeInsets.fromLTRB(_hPad, 32.0, _hPad, 4.0),
@@ -25,7 +26,7 @@ class TextSection extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(_hPad, 32.0, _hPad, _hPad),
           child: Text(
             _body,
-            style: GoogleFonts.getFont('Montserrat'),
+            style: Theme.of(context).textTheme.bodyText2,
             ),
         ),
      
