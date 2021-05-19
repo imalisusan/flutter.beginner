@@ -1,6 +1,6 @@
 # Free Code Camp Flutter Crash Course Code
 
-A new Flutter project.
+A Flutter project to implement a travel guide app.
 
 ## Getting Started
 
