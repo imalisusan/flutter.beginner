@@ -18,7 +18,7 @@ class Location {
         LocationFact('Fun Fact 2',
             'Google Fonts is a library of 1052 free licensed font families and APIs for conveniently using the fonts via CSS and Android. We also provide delightful '),
       ]),
-      Location(2, 'Maasai Mara', 'assets/images/image4.png', [
+      Location(2, 'Maasai Mara', 'assets/images/image4.jpg', [
         LocationFact('Fun Fact 1',
             'Google Fonts is a library of 1052 free licensed font families and APIs for conveniently using the fonts via CSS and Android. We also provide delightful'),
         LocationFact('Fun Fact 2',
