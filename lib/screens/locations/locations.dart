@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../models/location.dart';
+import '../../widgets/image_banner.dart';
 
 const LocationsRoute = '/';
 const LocationDetailRoute = '/location_detail';
@@ -20,14 +21,15 @@ class Locations extends StatelessWidget {
   }
 
   _onLocationTap(BuildContext context, int locationID) {
-    Navigator.pushNamed(context, LocationDetailRoute, arguments: {"id": locationID});
+    Navigator.pushNamed(context, LocationDetailRoute, 
+    arguments: {"id": locationID});
   }
 
   Widget _itemBuilder(BuildContext context, int index, Location location)
   {
     return  GestureDetector(
                     onTap: () => _onLocationTap(context, location.id),
-                     child: Text(location.name),
+                     child: Container(child: ImageBanner(location.imagePath),),
                   );
   }
 }
