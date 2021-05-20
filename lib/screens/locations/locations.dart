@@ -12,7 +12,7 @@ class Locations extends StatelessWidget {
 
     return Scaffold(
         appBar: AppBar(
-          title: Text('Locations'),
+          title: Text('Travel Locations'),
         ),
         body: ListView.builder(
           itemCount: locations.length,
@@ -29,7 +29,19 @@ class Locations extends StatelessWidget {
   {
     return  GestureDetector(
                     onTap: () => _onLocationTap(context, location.id),
-                     child: Container(child: ImageBanner(location.imagePath),),
+                     child: Column(
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Text(
+                           location.name,
+                             style: Theme.of(context).textTheme.headline6,
+                             
+                         ),
+                         Container(
+                           padding: EdgeInsets.fromLTRB(0, 14, 0, 14),
+                           child: ImageBanner(location.imagePath),),
+                       ],
+                     ),
                   );
   }
 }
